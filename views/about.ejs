@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,41 +15,94 @@
   </head>
 
   <body>
-    <video autoplay muted loop id="myVideo">
-      <source src="/images/ZONK-ANIMATION.mp4" type="video/mp4" />
-    </video>
+    <div class="vidC">
+      <video autoplay muted loop id="myVideo">
+        <source src="/images/ZONK-ANIMATION.mp4" type="video/mp4" />
+      </video>
+    </div>
     <section>
       <div class="loader">
-        <div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-        </div>
+        <img src="/images/supaplexZonk.svg" name="load" class="loader-img" />
       </div>
 
       <main>
         <div class="glass">
-          <div class="wrapper">
-            <div class="box a" style="height: 100%">
-              <center>
-                <div class="profile-img">
-                  <img src="/images/favicon.ico" />
-                </div>
-                <div class="links">
-                   
-                </div>
-              </center>
-            </div>
-            <div class="box b">
-              <h1 style="font-weight: 200; font-size: 50px">Home</h1>
-            </div>
+          <div class="box a" style="height: 100%">
+            <center>
+              <div class="profile-img">
+                <img src="/images/favicon.ico" />
+              </div>
+              <div class="links">
+                <ol>
+                  <li>
+                    <a href="/"><i class="fa-solid fa-house"></i></a>
+                  </li>
+                </ol>
+
+                <ol>
+                  <li>
+                    <a href="/levelsets"><i class="fa-solid fa-bars"></i></a>
+                  </li>
+                </ol>
+                <ol>
+                  <li>
+                    <a href="/gameplay"><i class="fa-solid fa-gamepad"></i></a>
+                  </li>
+                </ol>
+                <ol>
+                  <li>
+                    <a href="https://discord.gg/Rwsjdxg"
+                      ><i class="fa-brands fa-discord"></i
+                    ></a>
+                  </li>
+                </ol>
+
+                <ol>
+                  <li>
+                    <a href="/about" class="active"
+                      ><i class="fa-solid fa-question"></i
+                    ></a>
+                  </li>
+                </ol>
+                <ol>
+                  <li>
+                    <a href="/help"><i class="fa-solid fa-info"></i></a>
+                  </li>
+                </ol>
+                <ol>
+                  <li>
+                    <a href="https://www.supaplex.online/test/"
+                      ><i class="fa-solid fa-vial-circle-check"></i
+                    ></a>
+                  </li>
+                </ol>
+
+                <ol>
+                  <li>
+                    <a href="https://sple.me/"
+                      ><i class="fa-regular fa-pen-to-square"></i
+                    ></a>
+                  </li>
+                </ol>
+
+                <ol>
+                  <li>
+                    <a
+                      href="#"
+                      style="background-color: #2e1bff23; border-radius: 8px"
+                      ><i class="fa-solid fa-arrow-right-from-bracket"></i
+                    ></a>
+                  </li>
+                </ol>
+              </div>
+            </center>
+          </div>
+          <div class="box b">
+            <!--| ---Main Content |-->
+            <h1 style="font-weight: 200; font-size: 50px; margin-top: 10px">
+              About
+            </h1>
+            <!--| --Main Content End |-->
           </div>
         </div>
       </main>
