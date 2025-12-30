@@ -35,21 +35,21 @@ Any mental institution, tax authorities, or rational decision-making
 ### Active (ish)
 
 * **img2mpx**
-  Image → Supaplex level converter
+  Image → Supaplex level converter | 
   *Python → Rust rewrite in progress*
 
 * **betterRAT**
-  Educational RAT
+  Educational RAT | 
   *Rust, for research purposes :3*
 
 * **discordRAT**
-  Discord-bot-based educational RAT
+  Discord-bot-based educational RAT | 
   *Python → Rust rewrite in progress…*
 
 ### Abandoned (for now)
 
 * **Endoskeleton**
-  Programming language
+  Programming language | 
   *Written in Kotlin, too slow, will rewrite in Rust eventually*
 
 ### Concerning But Probably Fine™
