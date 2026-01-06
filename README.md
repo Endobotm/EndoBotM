@@ -95,15 +95,6 @@ loop {
 
 ---
 
-## GitHub Stats
-
-![Contribution Graph](https://github-readme-stats.vercel.app/api?username=Endobotm\&show_icons=true\&theme=radical)
-
-**Contribution pattern:**
-Sporadic bursts of productivity followed by long periods of hibernation and regret.
-
----
-
 ## Specializations
 
 * Making things unnecessarily complicated
